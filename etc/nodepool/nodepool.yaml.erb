@@ -31,7 +31,7 @@ providers:
   - name: local_01
     username: '<%= provider_username %>'
     password: '<%= provider_password %>'
-    auth-url: 'http://localhost:5000/v2.0'
+    auth-url: 'http://192.168.2.55:5000/v2.0'
     project-id: 'admin'
     max-servers: 2
     #This keypair is used to create the image and should be found in the cloud keypairs.
@@ -56,7 +56,7 @@ providers:
   - name: local_01_fc
     username: '<%= provider_username %>'
     password: '<%= provider_password %>'
-    auth-url: 'http://localhost:5000/v2.0'
+    auth-url: 'http://192.168.2.55:5000/v2.0'
     project-id: 'admin'
     max-servers: 1
     keypair: 'jenkins'
